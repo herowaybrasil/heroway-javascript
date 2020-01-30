@@ -1,0 +1,1 @@
+node ./fileA.mjs --experimental-modules

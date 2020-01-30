@@ -16,5 +16,7 @@ function endSound(e) {
   key.classList.remove('playing');
 }
 
-document.addEventListener('keydown', playSound);
-document.addEventListener('keyup', endSound);
+document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('keydown', playSound);
+  document.addEventListener('keyup', endSound);
+});
